@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    height: 36px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    padding: 5px;
+
+}
+
+ul {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    height: 36px;
+    color: white;
+    background-color: rgb(38, 38, 38);
+    padding: 5px 10px;
+}
+
+.link {
+
+    margin: 8px;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+    border: 1px soild red;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.line {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 75px;
+    border: 1px solid #ffffff;
+}
+
+.contact,
+.contact-1,
+.search,
+.menu {
+    padding: 5px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 48, 48);
+}
+
+.logo,
+.search,
+.menu {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.item-3 i {
+    color: rgb(119, 103, 103);
+}
+
+.item-4 i {
+    color: rgb(26, 24, 24);
+    font-size: 70px;
+}
+
+.mp4 {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 42%;
+    height: 450px;
+    border: 30px solid #ffA600;
+    color: white;
+
+
+}
+
+.box p {
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 10px;
+    padding: 80px 0 0 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.box h1 {
+    width: 300%;
+    height: 80px;
+    font-size: 85px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 500px;
+    border: 10px solid #ffA600;
+    border-radius: 10px 0px;
+    margin: 50px;
+}
+
+.sub {
+    margin-top: 50px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    font-size: large;
+}
+
+.subh-2 {
+    margin-left: 50px;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.line-1{
+    margin-left: 50px;
+    width: 85px;
+    border: 1px solid #ffA600;
+}
+
+.discription {
+    margin-left: 50px;
+    font-size: large;
+    text-align: justify;
+    padding: 5px;
+}
+
+.readmore {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+button {
+    border: 2px solid rgb(61, 61, 61) ;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(61, 61, 61);
+    border: none;
+    color: white;
+}
+/* .picdisc{
+    margin-top: 30px;
+    margin-right: 300px;
+} */
