@@ -58,6 +58,7 @@ ul {
     margin-top: 30px;
     margin-left: 300px;
 }
+
 .line {
     display: flex;
     margin-top: 50px;
@@ -110,8 +111,6 @@ ul {
     height: 450px;
     border: 30px solid #ffA600;
     color: white;
-
-
 }
 
 .box p {
@@ -157,7 +156,8 @@ ul {
     font-size: xx-large;
     letter-spacing: 3px;
 }
-.line-1{
+
+.line-1 {
     margin-left: 50px;
     width: 85px;
     border: 1px solid #ffA600;
@@ -175,18 +175,133 @@ ul {
     margin-left: 50px;
 }
 
-button {
-    border: 2px solid rgb(61, 61, 61) ;
+.button {
+    border: 2px solid rgb(61, 61, 61);
     padding: 10px 25px;
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(61, 61, 61);
     border: none;
     color: white;
 }
-/* .picdisc{
-    margin-top: 30px;
-    margin-right: 300px;
-} */
+
+.picdisc {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+
+.h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.building {
+    font-size: xx-large;
+}
+
+.line-2 {
+    width: 90px;
+    border: 1px solid #ffA600;
+}
+
+.union-building img {
+    margin-top: 65px;
+    height: 500px;
+    width: 1400px;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    top: 1570px;
+    height: 500px;
+    width: 1400px;
+    background-color: rgba(34, 32, 32, 0.884);
+}
+
+.product {
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 500px;
+    font-weight: 400px;
+    font-size: 80px;
+    color: #ffa600;
+    position: absolute;
+    font-size: 50px;
+}
+
+.see-poject {
+    background-color: #ffA600;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.project-button {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 575px;
+}
+
+.sub-2 {
+    text-align: center;
+    font-size: 5cqmax;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.line-3 {
+    width: 150px;
+    border: 1px solid #ffA600;
+    margin: auto;
+}
+
+.sub-2-text {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.product-card {
+    display: inline-flex;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    margin-left: 50px;
+}
+
+.card:hover {
+    background-color: #ffA600;
+}
+
+.card-img-top {
+    border-radius: 200px;
+    width: 100%;
+    height: fit-content;
+}
+
+.card-title {
+    text-align: center;
+    font-size: large;
+}
+
+.detail {
+    text-align: justify;
+    margin-left: 37%;
+    border: 2px solid rgb(61, 61, 61);
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.detail:hover {
+    background-color: rgb(61, 61, 61);
+    border: none;
+    color: white;
+
+}
